@@ -1,0 +1,253 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+body {
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+}
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  height: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+img{
+    height:100%;
+}
+#city-scape{
+    vertical-align: bottom;
+    float:right;
+    height:100%;
+}
+/*color near-white #f4f4f4; weight 200*/
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+.top-left {
+  margin: auto;
+  display: inline-block;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: auto;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.float-right {
+  float: right;
+}
+.display-inline {
+  display: inline-block;
+}
+.float-left {
+  float: left;
+}
+.clear-fix {
+  clear: both;
+}
+#header-stuff {
+  background-color: rgb(32, 101, 136);
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  font-family: "Source Sans Pro";
+}
+.header-1 {
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+.header-1 a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  padding-right: 5px;
+}
+.search-bar {
+  width: 70%;
+  height: 100%;
+}
+.search-bar input {
+  width: 85%;
+  height: 100%;
+  background-color: rgb(31, 82, 111);
+  font-size: 24px;
+}
+.search-bar button {
+  height: 100%;
+  width: 10%;
+  background-color: rgb(31, 82, 111);
+  color: grey;
+  font-size: 20px;
+}
+#header-2 button {
+  font-size: 20px;
+  padding: 10px 30px;
+  color: white;
+  background-color: rgb(240, 146, 51);
+  border-radius: 20px;
+}
+#header-2 {
+  margin: auto;
+  text-align: center;
+}
+#header2-left {
+text-align: center;
+    width: 50%;
+    vertical-align: center;
+    display:inline-block;
+}
+#header2-right{
+    padding-top:20px;
+    height:400px;
+}
+h1 {
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  font-size: 55px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+h2 {
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+h3 {
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  font-size: 55px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+h4{
+    font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  font-size: 44px;
+  font-weight: 300;
+}
+h5{
+      font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  
+}
+p {
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing: 0.6px;
+  line-height: 1.5em;
+}
+#section-1 {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  height: 600px;
+  font-size: 20px;
+  width:100%;
+}
+.section-1-text {
+    margin-top:100px;
+  width: 40%;
+  float: right;
+}
+#section-1 li {
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  padding: 0.5em;
+}
+#sec1-left{
+    width:400px;
+    display:inline-block;
+   margin-top:100px;
+}
+
+#section-1 button {
+  background-color: rgb(203, 56, 55);
+  font-size: 20px;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px;
+  width: 50%;
+  margin: 10px;
+}
+#section-1 a {
+  text-decoration: none;
+  color: white;
+}
+#section-2 {
+  color: white;
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+#sec2-div {
+  position: absolute;
+  width: 500px;
+  margin: 90px 100px;
+}
+#sec2-div h3 {
+  margin: 10px;
+}
+#sec2-div p {
+  margin: 10px;
+  font-size:24;
+}
+#section-2 button {
+  background-color: rgb(49, 68, 88);
+  font-size: 20px;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px;
+  width: 50%;
+  margin: 10px;
+}
+
+
+#section-3{
+  background:white;
+  color:black; 
+  width:100%;
+  height:500px;
+  text-align:center;
+}
+#section-3 a{
+  color:rgb(208, 74, 73);
+  text-decoration:none;
+  font-weight:bold;
+}
+#section-3 img{
+    width:100px;
+    height:100px;
+}
+.col{
+  display: inline-block;
+  width:20%;
+    margin:1%;
+  height:600px;
+  text-align:center;
+  vertical-align:top;
+}
+
+/*.nav-items{
+  display: inline-block;
+}
+nav{
+  background-color:red;
+}
+#logo-top-left{
+  width:20px;
+}*/
